@@ -1,33 +1,4 @@
-# Sharetribe
-
-[![CircleCI](https://circleci.com/gh/sharetribe/sharetribe/tree/master.svg?style=svg)](https://circleci.com/gh/sharetribe/sharetribe/tree/master) [![Code Climate](https://codeclimate.com/github/sharetribe/sharetribe.png)](https://codeclimate.com/github/sharetribe/sharetribe)
-
-Sharetribe develops advanced marketplace software for every business life cycle stage.
-
-Sharetribe Go gives you the complete feature set to launch a marketplace for rentals, services, events, or products. The platform is source-available under the Sharetribe Community Public License.
-
-To launch your marketplace in minutes without touching code or worrying about hosting and backups, [head to the SaaS version of Sharetribe Go](https://www.sharetribe.com/products/go).
-
-If you're looking for a customizable and extendable marketplace solution, [check out Sharetribe Flex](https://www.sharetribe.com/products/flex). Flex is an API-based marketplace solution designed with a developers-first mindset. It allows you to develop your marketplace with the programming language of your choice, build a mobile app, design a customized transaction flow, and easily integrate third party services.
-
-
-### Contents
-
-- [Technology stack](#technology-stack)
-- [Installation](#installation)
-- [Payments](#payments)
-- [Custom Landing Page](#custom-landing-page)
-- [Versioning](#versioning)
-- [Changes](#changes)
-- [Upgrade](#upgrade)
-- [Contribute](#contribute)
-- [Release](#release)
-- [Translation](#translation)
-- [Bug tracker](#bug-tracker)
-- [Documentation](#documentation)
-- [Community forum](#community-forum)
-- [License](#license)
-
+# AVA ONE
 ## Technology stack
 
 - Ruby 2.7
@@ -40,31 +11,11 @@ If you're looking for a customizable and extendable marketplace solution, [check
 - Server: Heroku
 - Image hosting: Amazon S3
 - Background job: [delayed_job](https://github.com/collectiveidea/delayed_job)
-- Gems:
-    -  [devise](https://github.com/plataformatec/devise) | Authentication
-    -  [omniauth-facebook](https://github.com/mkdynamic/omniauth-facebook) | Third party login: Facebook
-    -  [haml](https://github.com/haml/haml) and ERB | HTML templating
-    -  [mysql2](https://github.com/brianmario/mysql2) | MySQL library for Ruby
-    -  [paperclip](https://github.com/thoughtbot/paperclip) | Image upload management
-    -  [passenger](https://github.com/phusion/passenger) | Web application server
-    -  [react_on_rails](https://github.com/shakacode/react_on_rails) | Integration of React + Webpack + Rails
-    -  factory_girl, capybara, rspec-rails, cucumber-rails, selenium-webdriver | Testing
+
 
 ## Installation
 
 ### Requirements
-
-Before you get started, the following needs to be installed:
-  * **Ruby**. Version 2.7.5 is currently used and we don't guarantee everything works with other versions. If you need multiple versions of Ruby, [RVM](https://rvm.io//) or [rbenv](https://github.com/rbenv/rbenv) is recommended.
-  * [**RubyGems**](http://rubygems.org/)
-  * **Bundler**: `gem install bundler`
-  * **Node**. Version 10.15 is currently used and we don't guarantee everything works with other versions. If you need multiple versions of Node, consider using [n](https://github.com/tj/n), [nvm](https://github.com/creationix/nvm), or [nenv](https://github.com/ryuone/nenv).
-  * [**Git**](http://help.github.com/git-installation-redirect)
-  * **A database**. Only MySQL 5.7 has been tested, so we give no guarantees that other databases (e.g. PostgreSQL) work. You can install MySQL Community Server two ways:
-    1. If you are on a Mac, use homebrew: `brew install mysql` (*highly* recommended). Also consider installing the [MySQL Preference Pane](https://dev.mysql.com/doc/refman/5.1/en/osx-installation-prefpane.html) to control MySQL startup and shutdown. It is packaged with the MySQL downloadable installer, but can be easily installed as a stand-alone.
-    2. Download a [MySQL installer from here](http://dev.mysql.com/downloads/mysql/)
-  * [**Sphinx**](http://pat.github.com/ts/en/installing_sphinx.html). Version 2.1.4 has been used successfully, but newer versions should work as well. Make sure to enable MySQL support. If you're using OS X and have Homebrew installed, install it with `brew install sphinx --with-mysql`
-  * [**Imagemagick**](http://www.imagemagick.org). If you're using OS X and have Homebrew installed, install it with `brew install imagemagick`
 
 ### Setting up the development environment
 
