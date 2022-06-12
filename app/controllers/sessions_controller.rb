@@ -1,6 +1,7 @@
 require 'rest_client'
 
 class SessionsController < ApplicationController
+  layout 'ava_one'
 
   skip_before_action :cannot_access_if_banned, :only => [:destroy, :confirmation_pending]
   skip_before_action :cannot_access_without_confirmation, :only => [:destroy, :confirmation_pending]

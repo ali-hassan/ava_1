@@ -1,0 +1,581 @@
+<%= render "layouts/header" %>
+
+
+
+<!-- ==========Ranking Section start Here========== -->
+<section class="ranking-section padding-top padding-bottom">
+  <div class="container">
+    <div class="section-header">
+      <div class="nft-filter d-flex flex-wrap align-items-center justify-content-center  gap-15">
+        <h3>Ranking in Anftiz</h3>
+      </div>
+      <div class="nft-search">
+        <div class="form-floating nft-search-input">
+          <input type="text" class="form-control" id="nftSearch" placeholder="Search NFT">
+          <label for="nftSearch">Search NFT</label>
+          <button type="button"> <i class="icofont-search-1"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="ranking-wrapper table-responsive">
+      <table class="table table-hover rank-table">
+        <thead>
+        <tr>
+          <th scope="col">SL</th>
+          <th scope="col">Collection</th>
+          <th scope="col">Volume</th>
+          <th scope="col">24h %</th>
+          <th scope="col">7d %</th>
+          <th scope="col">Average Price</th>
+          <th scope="col">Owner</th>
+          <th scope="col">Assets</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row" class="rank-sl">1</th>
+          <td class="rank-collection">
+            <div class="rank-col-inner d-flex flex-wrap align-items-center">
+              <div class="rank-col-thumb">
+                <a href="#">
+                  <%= image_tag "seller/collector-2.gif", class: "rounded-circle", alt: "Collection Image" %>
+                </a>
+
+              </div>
+              <div class="rank-col-content">
+                <a href="#">Meoa Cat</a>
+              </div>
+            </div>
+          </td>
+          <td class="rank-vol">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                22626610.102
+              </div>
+            </div>
+          </td>
+          <td class="rank-hour text-success">+2518181%</td>
+          <td class="rank-day text-danger">+45151%</td>
+          <td class="rank-price">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                15.01
+              </div>
+            </div>
+          </td>
+          <td class="rank-owner">11.5k</td>
+          <td class="rank-assets">19.7k</td>
+        </tr>
+        <tr>
+          <th scope="row" class="rank-sl">2</th>
+          <td class="rank-collection">
+            <div class="rank-col-inner d-flex flex-wrap align-items-center">
+              <div class="rank-col-thumb">
+                <a href="#">
+                  <%= image_tag "seller/collector-4.gif", class: "rounded-circle", alt: "Collection Image" %>
+                </a>
+
+              </div>
+              <div class="rank-col-content">
+                <a href="#">rasselmrh</a>
+              </div>
+            </div>
+          </td>
+          <td class="rank-vol">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                626610.02
+              </div>
+            </div>
+          </td>
+          <td class="rank-hour text-success">+2518181%</td>
+          <td class="rank-day text-success">+45151%</td>
+          <td class="rank-price">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+              </div>
+              <div class="rank-vol-content">
+                15.01
+              </div>
+            </div>
+          </td>
+          <td class="rank-owner">11.5k</td>
+          <td class="rank-assets">19.7k</td>
+        </tr>
+        <tr>
+          <th scope="row" class="rank-sl">3</th>
+          <td class="rank-collection">
+            <div class="rank-col-inner d-flex flex-wrap align-items-center">
+              <div class="rank-col-thumb">
+                <a href="#">
+                  <%= image_tag "seller/collector-1.png", class: "rounded-circle", alt: "Collection Image" %>
+                </a>
+
+              </div>
+              <div class="rank-col-content">
+                <a href="#">Space Xoe</a>
+              </div>
+            </div>
+          </td>
+          <td class="rank-vol">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+              </div>
+              <div class="rank-vol-content">
+                2260.102
+              </div>
+            </div>
+          </td>
+          <td class="rank-hour text-success">+2518181%</td>
+          <td class="rank-day text-danger"> -45151%</td>
+          <td class="rank-price">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+              </div>
+              <div class="rank-vol-content">
+                15.01
+              </div>
+            </div>
+          </td>
+          <td class="rank-owner">15.5k</td>
+          <td class="rank-assets">9.7k</td>
+        </tr>
+        <tr>
+          <th scope="row" class="rank-sl">4</th>
+          <td class="rank-collection">
+            <div class="rank-col-inner d-flex flex-wrap align-items-center">
+              <div class="rank-col-thumb">
+                <a href="#">
+                  <%= image_tag "seller/collector-2.png", class: "rounded-circle", alt: "Collection Image" %>
+                </a>
+
+              </div>
+              <div class="rank-col-content">
+                <a href="#">Rotboat</a>
+              </div>
+            </div>
+          </td>
+          <td class="rank-vol">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-2.png", class: "rounded-circle", alt: "Collection Image" %>
+              </div>
+              <div class="rank-vol-content">
+                6610.102
+              </div>
+            </div>
+          </td>
+          <td class="rank-hour">-----</td>
+          <td class="rank-day text-success">+45151%</td>
+          <td class="rank-price">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+              </div>
+              <div class="rank-vol-content">
+                15.01
+              </div>
+            </div>
+          </td>
+          <td class="rank-owner">11.5k</td>
+          <td class="rank-assets">19.7k</td>
+        </tr>
+        <tr>
+          <th scope="row" class="rank-sl">5</th>
+          <td class="rank-collection">
+            <div class="rank-col-inner d-flex flex-wrap align-items-center">
+              <div class="rank-col-thumb">
+                <a href="#">
+                  <%= image_tag "seller/collector-1.gif", class: "rounded-circle", alt: "Collection Image" %>
+                </a>
+
+              </div>
+              <div class="rank-col-content">
+                <a href="#">Coffin Boxx</a>
+              </div>
+            </div>
+          </td>
+          <td class="rank-vol">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+              </div>
+              <div class="rank-vol-content">
+                15541.22
+              </div>
+            </div>
+          </td>
+
+          <td class="rank-hour text-success">+2518181%</td>
+          <td class="rank-day text-success">+45151%</td>
+          <td class=" rank-price">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                15.01
+              </div>
+            </div>
+          </td>
+          <td class="rank-owner">11.5k</td>
+          <td class="rank-assets">19.7k</td>
+        </tr>
+        <tr>
+          <th scope="row" class="rank-sl">6</th>
+          <td class="rank-collection">
+            <div class="rank-col-inner d-flex flex-wrap align-items-center">
+              <div class="rank-col-thumb">
+                <a href="#">
+                  <%= image_tag "seller/collector-3.png", class: "rounded-circle", alt: "Collection Image" %>
+                </a>
+
+              </div>
+              <div class="rank-col-content">
+                <a href="#">elixir treaser </a>
+              </div>
+            </div>
+          </td>
+          <td class="rank-vol">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+              </div>
+              <div class="rank-vol-content">
+                426610.102
+              </div>
+            </div>
+          </td>
+          <td class="rank-hour text-danger">-2518181%</td>
+          <td class="rank-day text-success">+45151%</td>
+          <td class="rank-price">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                15.01
+              </div>
+            </div>
+          </td>
+          <td class="rank-owner">11.5k</td>
+          <td class="rank-assets">19.7k</td>
+        </tr>
+        <tr>
+          <th scope="row" class="rank-sl">7</th>
+          <td class="rank-collection">
+            <div class="rank-col-inner d-flex flex-wrap align-items-center">
+              <div class="rank-col-thumb">
+                <a href="#">
+                  <%= image_tag "seller/collector-3.gif", class: "rounded-circle", alt: "Collection Image" %>
+                </a>
+              </div>
+              <div class="rank-col-content">
+                <a href="#">Nakashika ;) </a>
+              </div>
+            </div>
+          </td>
+          <td class="rank-vol">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-4.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                336610.102
+              </div>
+            </div>
+          </td>
+          <td class="rank-hour text-success">+2518181%</td>
+          <td class="rank-day text-danger">+45151%</td>
+          <td class="rank-price">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                15.01
+              </div>
+            </div>
+          </td>
+          <td class="rank-owner">11.5k</td>
+          <td class="rank-assets">19.7k</td>
+        </tr>
+        <tr>
+          <th scope="row" class="rank-sl">8</th>
+          <td class="rank-collection">
+            <div class="rank-col-inner d-flex flex-wrap align-items-center">
+              <div class="rank-col-thumb">
+                <a href="#">
+                  <%= image_tag "seller/collector-4.png", class: "rounded-circle", alt: "Collection Image" %>
+                </a>
+
+              </div>
+              <div class="rank-col-content">
+                <a href="#">maxcot @r</a>
+              </div>
+            </div>
+          </td>
+          <td class="rank-vol">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+              </div>
+              <div class="rank-vol-content">
+                626610.102
+              </div>
+            </div>
+          </td>
+          <td class="rank-hour text-success">+2518181%</td>
+          <td class="rank-day text-success">+45151%</td>
+          <td class="rank-price">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+              </div>
+              <div class="rank-vol-content">
+                15.01
+              </div>
+            </div>
+          </td>
+          <td class="rank-owner">11.5k</td>
+          <td class="rank-assets">19.7k</td>
+        </tr>
+        <tr>
+          <th scope="row" class="rank-sl">9</th>
+          <td class="rank-collection">
+            <div class="rank-col-inner d-flex flex-wrap align-items-center">
+              <div class="rank-col-thumb">
+                <a href="#">
+                  <%= image_tag "seller/collector-5.png", class: "rounded-circle", alt: "Collection Image" %>
+                </a>
+
+              </div>
+              <div class="rank-col-content">
+                <a href="#">Meoa Cat</a>
+              </div>
+            </div>
+          </td>
+          <td class="rank-vol">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                26610.102
+              </div>
+            </div>
+          </td>
+          <td class="rank-hour text-danger">-2518181%</td>
+          <td class="rank-day text-danger">-45151%</td>
+          <td class="rank-price">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                15.01
+              </div>
+            </div>
+          </td>
+          <td class="rank-owner">11.5k</td>
+          <td class="rank-assets">19.7k</td>
+        </tr>
+        <tr>
+          <th scope="row" class="rank-sl">10</th>
+          <td class="rank-collection">
+            <div class="rank-col-inner d-flex flex-wrap align-items-center">
+              <div class="rank-col-thumb">
+                <a href="#">
+                  <%= image_tag "seller/collector-2.gif", class: "rounded-circle", alt: "Collection Image" %>
+                </a>
+
+              </div>
+              <div class="rank-col-content">
+                <a href="#">Meoa Cat</a>
+              </div>
+            </div>
+          </td>
+          <td class="rank-vol">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                22626610.102
+              </div>
+            </div>
+          </td>
+          <td class="rank-hour text-success">+2518181%</td>
+          <td class="rank-day text-success">+45151%</td>
+          <td class="rank-price">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+              </div>
+              <div class="rank-vol-content">
+                15.01
+              </div>
+            </div>
+          </td>
+          <td class="rank-owner">11.5k</td>
+          <td class="rank-assets">19.7k</td>
+        </tr>
+        <tr>
+          <th scope="row" class="rank-sl">11</th>
+          <td class="rank-collection">
+            <div class="rank-col-inner d-flex flex-wrap align-items-center">
+              <div class="rank-col-thumb">
+                <a href="#">
+                  <%= image_tag "seller/collector-6.png", class: "rounded-circle", alt: "Collection Image" %>
+                </a>
+
+              </div>
+              <div class="rank-col-content">
+                <a href="#">Space XXX </a>
+              </div>
+            </div>
+          </td>
+          <td class="rank-vol">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                126610.102
+              </div>
+            </div>
+          </td>
+          <td class="rank-hour">------</td>
+          <td class="rank-day">------</td>
+          <td class="rank-price">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                15.01
+              </div>
+            </div>
+          </td>
+          <td class="rank-owner">11.5k</td>
+          <td class="rank-assets">19.7k</td>
+        </tr>
+        <tr>
+          <th scope="row" class="rank-sl">35</th>
+          <td class="rank-collection">
+            <div class="rank-col-inner d-flex flex-wrap align-items-center">
+              <div class="rank-col-thumb">
+                <a href="#">
+                  <%= image_tag "seller/collector-6.png", class: "rounded-circle", alt: "Collection Image" %>
+                </a>
+
+              </div>
+              <div class="rank-col-content">
+                <a href="#">Space XXX </a>
+              </div>
+            </div>
+          </td>
+          <td class="rank-vol">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                126610.102
+              </div>
+            </div>
+          </td>
+          <td class="rank-hour">------</td>
+          <td class="rank-day">------</td>
+          <td class="rank-price">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                15.01
+              </div>
+            </div>
+          </td>
+          <td class="rank-owner">11.5k</td>
+          <td class="rank-assets">19.7k</td>
+        </tr>
+        <tr>
+          <th scope="row" class="rank-sl">18</th>
+          <td class="rank-collection">
+            <div class="rank-col-inner d-flex flex-wrap align-items-center">
+              <div class="rank-col-thumb">
+                <a href="#">
+                  <%= image_tag "seller/collector-1.gif", class: "rounded-circle", alt: "Collection Image" %>
+                </a>
+
+              </div>
+              <div class="rank-col-content">
+                <a href="#">Illuonoe fkd </a>
+              </div>
+            </div>
+          </td>
+          <td class="rank-vol">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-3.png", class: "rounded-circle", alt: "Collection Image" %>
+              </div>
+              <div class="rank-vol-content">
+                26610.102
+              </div>
+            </div>
+          </td>
+          <td class="rank-hour text-success">+2518181%</td>
+          <td class="rank-day text-danger">-45151%</td>
+          <td class="rank-price">
+            <div class="rank-vol-inner d-flex flex-wrap align-items-center">
+              <div class="rank-vol-thumb">
+                <%= image_tag "currency/currency-2.png", class: "rounded-circle", alt: "Collection Image" %>
+
+              </div>
+              <div class="rank-vol-content">
+                15.01
+              </div>
+            </div>
+          </td>
+          <td class="rank-owner">11.5k</td>
+          <td class="rank-assets">19.7k</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<!-- ==========Ranking Section Ends Here========== -->
+
+
+
+
+<!-- ===============//footer section start here \\================= -->
+<%= render "layouts/footer" %>
