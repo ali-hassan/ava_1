@@ -1,6 +1,5 @@
 # AVA ONE
 
-[![CircleCI](https://circleci.com/gh/AVA ONE/AVA ONE/tree/master.svg?style=svg)](https://circleci.com/gh/AVA ONE/AVA ONE/tree/master) [![Code Climate](https://codeclimate.com/github/AVA ONE/AVA ONE.png)](https://codeclimate.com/github/AVA ONE/AVA ONE)
 
 AVA ONE develops advanced marketplace software for every business life cycle stage.
 
