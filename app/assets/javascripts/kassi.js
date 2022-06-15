@@ -1,4 +1,4 @@
-// Custom Javascript functions for Sharetribe
+// Custom Javascript functions for AVA ONE
 // Add custom validation methods
 
 function add_validator_methods() {
@@ -620,7 +620,7 @@ function initialize_private_community_defaults(locale, feedback_default_text) {
   translate_validation_messages(locale);
   $('select.language_select').selectmenu({style: 'dropdown', width: "100px"});
   $('#close_notification_link').click(function() { $('#notifications').slideUp('fast'); });
-  // Make sure that Sharetribe cannot be used if js is disabled
+  // Make sure that AVA ONE cannot be used if js is disabled
   $('.wrapper').addClass('js_enabled');
 }
 
