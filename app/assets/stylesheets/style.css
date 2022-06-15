@@ -2753,7 +2753,7 @@ aside {
 /*============ Seccion cabecera css end here ==============*/
 /*============ Page Header  css start here ==============*/
 .page-header-section {
-  background: image_url('page-banner.jpg');
+  background-image: url('banner/page-banner.jpg');
   background-size: cover;
 }
 .page-header-section.style-1 {

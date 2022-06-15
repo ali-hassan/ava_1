@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   mount Mercury::Engine => '/'
   root to: 'dashboard#index'
   resources :ranks
+  resources :authors
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
