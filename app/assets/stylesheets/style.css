@@ -2861,7 +2861,7 @@ aside {
 
 .collection-banner {
   padding-block: 100px;
-  background: image_url('category/banner-bg.png');
+  background-image: url('category/banner-bg.png');
   background-size: cover;
 }
 
